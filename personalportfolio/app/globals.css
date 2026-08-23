@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand */
+  --color-primary: #00ff41; /* iconic Matrix green */
+  --color-secondary: #008f11; /* darker Matrix green */
+
+  /* Backgrounds */
+  --color-background: #050805; /* near-black with green tint */
+  --color-surface: #0b120c; /* cards / navbar */
+  --color-surface-hover: #111c12;
+
+  /* Text */
+  --color-text-primary: #e8f5e9; /* slightly green-tinted white */
+  --color-text-secondary: #ffffff;
+  --color-text-muted: #a3a3a3;
+
+  /* UI */
+  --color-border: #1c3320;
+  --color-border-active: #00ff41;
+
+  /* States */
+  --color-success: #00ff41;
+  --color-warning: #ffd54f;
+  --color-error: #ff4d4d;
+}
